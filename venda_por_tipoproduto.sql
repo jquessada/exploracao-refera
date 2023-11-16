@@ -4,4 +4,4 @@ SELECT
 ProdutoID,
 SUM(Valor) AS Valor 
 FROM FatoDetalhes
-GROUP BY ProdutoID
+GROUP BY ProdutoID;
