@@ -3,5 +3,5 @@
 SELECT 
 ProdutoID,
 SUM(Valor) AS Valor 
-FROM FatoDetalhes_DadosModelagem
-GROUP BY ProdutoID;
+FROM FatoDetalhes
+GROUP BY ProdutoID
